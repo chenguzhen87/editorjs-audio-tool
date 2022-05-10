@@ -1,0 +1,43 @@
+{
+  "name": "editorjs-audio-tool",
+  "version": "1.0.0",
+  "description": "Audio Tool for Editor.js",
+  "keywords": [
+    "codex editor",
+    "tool",
+    "video",
+    "editor.js",
+    "editorjs"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "author": "chenguzhen87 <546369005@qq.com>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "jsdelivr": "dist/index.umd.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    },
+    "./*": "./*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenguzhen87/editorjs-audio-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chenguzhen87/editorjs-audio-tool.git/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.30",
+    "vite": "^2.9.6"
+  }
+}

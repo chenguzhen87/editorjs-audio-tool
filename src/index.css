@@ -1,0 +1,22 @@
+.editerjs-audio-conent {
+  width: 100%;
+  padding: 20px;
+}
+
+.editerjs-audio-conent__audio-player {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.editerjs-audio-loading {
+  min-height: 200px;
+}
+.editerjs-audio-loading .cdx-button {
+  display: none;
+}
+
+.editerjs-audio-loading.cdx-loader::before {
+  width: 50px;
+  height: 50px;
+}
